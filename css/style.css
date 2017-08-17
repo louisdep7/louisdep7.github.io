@@ -1,0 +1,60 @@
+body, html{
+  height:100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666
+}
+.pimg1 , .pimg2 , .pimg3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background: url('../images/img1.jpeg') no-repeat;
+  min-height: 100%;
+
+}
+
+.pimg2{
+  background: url('../images/img2.jpeg') no-repeat  0 -400px;
+  min-height: 400px;
+
+
+}
+
+.pimg3{
+  background: url('../images/img3.jpeg') no-repeat 0 -250px;
+  min-height: 400px;
+
+}
+
+
+.foto1 , .foto2 , .foto3{
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #f4f4f4
+  color:#666
+}
+h1{
+ position: absolute;
+ top:50%;
+ width:100%;
+ text-align: center;
+ color: black;
+ font-size:27px;
+ letter-spacing:8px;
+ text-transform: uppercase;
+}
+
+footer{
+  text-align: center;
+
+}
